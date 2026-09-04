@@ -69,4 +69,10 @@
     
     Для загрузки продуктов в базу данных можно использовать 
     фикстуру из приложения products:
-    `python manage.py loaddata products/fixtures/products_to_upload.json`    
+    `python manage.py loaddata products/fixtures/products_to_upload.json`
+
+12. В проекте реализовано 15 автотестов, покрывающих ключевые функции
+    всех приложений (accounts, products, basket, orders, reviews, checkout).
+
+    Для запуска всех тестов выполните команду:
+    `python manage.py test -v 2`
